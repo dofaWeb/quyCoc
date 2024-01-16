@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+ font-size: 100%;   
+}
+
+.Title{
+    font-style: inherit;
+    font-size: 2rem;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.box{
+    height: 500px;
+    background-image: url("images/dangTien.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.screen{
+    height: 800px;
+    background-image: linear-gradient(0,#333,#ccc);
+}
+
+.content{
+    margin-top: 16px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: aqua;
+}
+
+.download{
+    color: chartreuse;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.downloadButton{
+    font-size: 1.2rem;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.downloadButton #button{
+    padding: 5px;
+    background-color: red;
+    color: chocolate;
+    border: solid;
+    text-decoration: none;
+}
+
+#button:hover{
+    background-color: orange;
+}
